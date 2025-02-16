@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/DreamHouse/static/css/main.7acaea2f.css",
-    "main.js": "/DreamHouse/static/js/main.07d3183d.js",
+    "main.js": "/DreamHouse/static/js/main.9c5a8d0a.js",
+    "static/media/header_bg.png": "/DreamHouse/static/media/header_bg.3af1b88408fdf7107266.png",
     "index.html": "/DreamHouse/index.html",
     "main.7acaea2f.css.map": "/DreamHouse/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/DreamHouse/static/js/main.07d3183d.js.map"
+    "main.9c5a8d0a.js.map": "/DreamHouse/static/js/main.9c5a8d0a.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.9c5a8d0a.js"
   ]
 }
