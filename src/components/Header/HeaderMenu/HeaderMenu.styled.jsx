@@ -146,6 +146,7 @@ export const HeaderButton = styled.button`
 export const ImageBlock = styled.div`
   position: relative;
   display: inline-block;
+  cursor: pointer;
 `;
 
 export const ButtonImage = styled.img`
