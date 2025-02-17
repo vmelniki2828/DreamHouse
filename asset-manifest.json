@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/DreamHouse/static/css/main.7acaea2f.css",
-    "main.js": "/DreamHouse/static/js/main.71a79951.js",
+    "main.js": "/DreamHouse/static/js/main.68d92224.js",
     "static/media/header_bg.png": "/DreamHouse/static/media/header_bg.3af1b88408fdf7107266.png",
     "static/media/try_slider_image.png": "/DreamHouse/static/media/try_slider_image.25a08ee5ac4bba7d84fa.png",
     "static/media/service_test_img.png": "/DreamHouse/static/media/service_test_img.cbc633f2e6cf0c889b23.png",
     "static/media/img_second_service_test.png": "/DreamHouse/static/media/img_second_service_test.c594eeb1f46728b99374.png",
     "index.html": "/DreamHouse/index.html",
     "main.7acaea2f.css.map": "/DreamHouse/static/css/main.7acaea2f.css.map",
-    "main.71a79951.js.map": "/DreamHouse/static/js/main.71a79951.js.map"
+    "main.68d92224.js.map": "/DreamHouse/static/js/main.68d92224.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.71a79951.js"
+    "static/js/main.68d92224.js"
   ]
 }
