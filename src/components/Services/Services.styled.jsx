@@ -41,6 +41,8 @@ export const ServiceList = styled.ul`
   margin-bottom: 0px;
   margin-top: 0px;
   justify-content: center;
+
+  max-width: 1400px;
 `;
 
 export const ServiceItem = styled.li`
@@ -50,6 +52,8 @@ export const ServiceItem = styled.li`
   background-image: url(${service_bg});
   background-size: cover;
   background-position: center;
+
+  cursor: pointer;
 
   display: flex;
   align-items: center;
@@ -73,7 +77,7 @@ export const ItemMainText = styled.h1`
 `;
 
 export const ItemButtonBlock = styled.div`
-  background: #ffffff;
+  background-color: ${({ isHovered }) => (isHovered ? '#0f4131' : '#FFFFFF')};
   width: 364px;
   height: 43px;
   cursor: pointer;
@@ -82,7 +86,9 @@ export const ItemButtonBlock = styled.div`
   justify-content: center;
 
   position: absolute;
-  bottom: -1px;
+  bottom: ${({ isHovered }) => (isHovered ? '0' : '-1px')};
+
+  transition: background-color 0.3s ease-in-out, bottom 0.3s ease-in-out;
 
   clip-path: polygon(
     0% 100%,
@@ -137,7 +143,77 @@ export const ItemButtonBlock = styled.div`
     45.153% 100%
   );
   clip-rule: evenodd;
-  
+`;
+
+export const HoveredBlock = styled.div`
+  background-color: #ffffff;
+  width: 271px;
+  height: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: ${({ isHovered }) => (isHovered ? 1 : 0)};
+  visibility: ${({ isHovered }) => (isHovered ? 'visible' : 'hidden')};
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+
+  position: absolute;
+  top: 0;
+
+  clip-path: polygon(
+    0% 0%,
+    0.891% 0.47%,
+    1.771% 1.864%,
+    2.636% 4.164%,
+    3.483% 7.347%,
+    4.307% 11.393%,
+    5.105% 16.28%,
+    5.873% 21.989%,
+    6.607% 28.499%,
+    7.303% 35.788%,
+    7.958% 43.836%,
+    7.958% 43.836%,
+    8.797% 54.147%,
+    9.69% 63.486%,
+    10.63% 71.826%,
+    11.614% 79.141%,
+    12.636% 85.403%,
+    13.692% 90.587%,
+    14.777% 94.665%,
+    15.885% 97.611%,
+    17.013% 99.398%,
+    18.154% 100%,
+    45.153% 100%,
+    46.392% 100%,
+    47.632% 100%,
+    81.846% 100%,
+    82.987% 99.398%,
+    84.115% 97.611%,
+    85.223% 94.665%,
+    86.308% 90.587%,
+    87.364% 85.403%,
+    88.386% 79.141%,
+    89.37% 71.826%,
+    90.31% 63.486%,
+    91.203% 54.147%,
+    92.042% 43.836%,
+    92.042% 43.836%,
+    92.697% 35.788%,
+    93.393% 28.499%,
+    94.128% 21.989%,
+    94.895% 16.28%,
+    95.693% 11.393%,
+    96.517% 7.347%,
+    97.364% 4.164%,
+    98.229% 1.864%,
+    99.109% 0.47%,
+    100% 0%,
+    47.632% 0%,
+    46.392% 0%,
+    45.153% 0%
+  );
+  clip-rule: evenodd;
 `;
 
 export const ItemButton = styled.button`
@@ -147,11 +223,13 @@ export const ItemButton = styled.button`
   font-size: 18px;
   line-height: 0%;
 
-  color: #0f4131;
+  color: ${({ isHovered }) => (isHovered ? '#FFFFFF' : '#0f4131')};
   cursor: pointer;
 
   background-color: transparent;
   border: 0;
+
+  transition: color 0.3s ease-in-out;
 `;
 
 export const ServiceItemLink = styled.div`
