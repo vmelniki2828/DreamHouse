@@ -8,4 +8,5 @@ export const HeaderMainContainer = styled.div`
   height: 800px;
   overflow: hidden;
   padding: 0 40px;
+  margin: 0 auto;
 `;
