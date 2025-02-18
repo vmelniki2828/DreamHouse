@@ -58,10 +58,10 @@ export const TopBlock = styled.div`
     0% 100%,
     48.632% 100%
   );
-  background-color:white;
+  background-color: white;
   width: 615px;
-  height:38px;
-  margin-top:-38px;
+  height: 38px;
+  margin-top: -38px;
 `;
 
 export const AboutMainContainer = styled.div`
@@ -228,4 +228,94 @@ export const AboutSliderTopConInfo = styled.div`
   line-height: 0%;
 
   color: #adadad;
+
+  position: relative;
+  z-index: 1;
+`;
+export const ImgSliderBlock = styled.div`
+  background-color: #ffffff;
+  width: 322px;
+  height: 38px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 41px;
+
+  clip-path: polygon(
+    0% 100%,
+    0.891% 99.53%,
+    1.771% 98.136%,
+    2.636% 95.836%,
+    3.483% 92.653%,
+    4.307% 88.607%,
+    5.105% 83.72%,
+    5.873% 78.011%,
+    6.607% 71.501%,
+    7.303% 64.212%,
+    7.958% 56.164%,
+    7.958% 56.164%,
+    8.797% 45.853%,
+    9.69% 36.514%,
+    10.63% 28.174%,
+    11.614% 20.859%,
+    12.636% 14.597%,
+    13.692% 9.413%,
+    14.777% 5.335%,
+    15.885% 2.389%,
+    17.013% 0.602%,
+    18.154% 0%,
+    45.153% 0%,
+    46.392% 0%,
+    47.632% 0%,
+    81.846% 0%,
+    82.987% 0.602%,
+    84.115% 2.389%,
+    85.223% 5.335%,
+    86.308% 9.413%,
+    87.364% 14.597%,
+    88.386% 20.859%,
+    89.37% 28.174%,
+    90.31% 36.514%,
+    91.203% 45.853%,
+    92.042% 56.164%,
+    92.042% 56.164%,
+    92.697% 64.212%,
+    93.393% 71.501%,
+    94.128% 78.011%,
+    94.895% 83.72%,
+    95.693% 88.607%,
+    96.517% 92.653%,
+    97.364% 95.836%,
+    98.229% 98.136%,
+    99.109% 99.53%,
+    100% 100%,
+    47.632% 100%,
+    46.392% 100%,
+    45.153% 100%
+  );
+  clip-rule: evenodd;
+
+  position: relative;
+  z-index: 1;
+`;
+
+export const SliderWrapper = styled.div`
+  width: 100%;
+  max-width: 600px; /* Можно увеличить */
+  margin: 0 auto;
+
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .slick-dots {
+    bottom: 5px;
+    z-index: 2;
+  }
 `;
