@@ -223,6 +223,9 @@ export const ItemButton = styled.button`
   font-size: 18px;
   line-height: 0%;
 
+  display: flex;
+  align-items: center;
+
   color: ${({ isHovered }) => (isHovered ? '#FFFFFF' : '#0f4131')};
   cursor: pointer;
 
@@ -271,6 +274,15 @@ export const TextItem = styled.p`
   text-transform: uppercase;
   color: #0f4131;
   margin: 48px 26px 0 0;
+`;
+
+export const ArrowItemButton = styled(FaArrowRight)`
+  width: 9px;
+  height: 9px;
+
+  padding-left: 10px;
+
+  color: ${({ isHovered }) => (isHovered ? '#FFFFFF' : '#0f4131')};
 `;
 
 export const ArrowItem = styled(FaArrowRight)`

@@ -1,5 +1,6 @@
 import {
   ArrowItem,
+  ArrowItemButton,
   HoveredBlock,
   ImgItem,
   ItemButton,
@@ -36,6 +37,7 @@ const Services = () => {
               <ItemButtonBlock isHovered={hoveredIndex === index}>
                 <ItemButton isHovered={hoveredIndex === index}>
                   Заказать рабочих
+                  <ArrowItemButton isHovered={hoveredIndex === index} />
                 </ItemButton>
               </ItemButtonBlock>
             </ServiceItem>
