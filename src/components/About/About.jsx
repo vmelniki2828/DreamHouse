@@ -10,12 +10,14 @@ import {
   AboutBigLeftContainerList,
   AboutBigRightContainer,
   AboutSliderTopConInfo,
+  TopBlock,
 } from './About.styled';
 import try_image from '../../images/try_slider_image.png';
 
 const About = () => {
   return (
     <AboutMainContainer>
+      <TopBlock/>
       <AboutMainTitle>О НАС</AboutMainTitle>
 
       <AboutBigConatiner>

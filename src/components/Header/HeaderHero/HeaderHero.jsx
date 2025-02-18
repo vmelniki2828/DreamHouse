@@ -9,7 +9,7 @@ import {
   MainTitle,
   MainTitleSpan,
 } from './HeaderHero.styled';
-import header_button from '../../../images/header_button.png';
+import header_button from '../../../images/header_big_botton.png';
 import button_arrow from '../../../images/button_arrow.png';
 import { ImageBlock } from '../HeaderMenu/HeaderMenu.styled';
 import whiteBigArrow from '../../../images/whiteBigArrow.png';
