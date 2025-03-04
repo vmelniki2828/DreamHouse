@@ -7,7 +7,7 @@ import {
   SocialMediaItem,
   SocialMediaItemIcon,
 } from './Footer.styled';
-import logo from '../../images/Logo.png';
+import logo from '../../images/footerIcon.png';
 
 export const Footer = () => {
   return (
