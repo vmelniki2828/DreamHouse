@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/DreamHouse/static/css/main.63b658f0.css",
-    "main.js": "/DreamHouse/static/js/main.42c10306.js",
+    "main.js": "/DreamHouse/static/js/main.893d442e.js",
     "static/media/header_bg.png": "/DreamHouse/static/media/header_bg.be9a3e2b1e63714a8e56.png",
     "static/media/try_slider_image.png": "/DreamHouse/static/media/try_slider_image.25a08ee5ac4bba7d84fa.png",
     "static/media/service_test_img.png": "/DreamHouse/static/media/service_test_img.cbc633f2e6cf0c889b23.png",
     "static/media/img_second_service_test.png": "/DreamHouse/static/media/img_second_service_test.c594eeb1f46728b99374.png",
+    "static/media/WorkTypePic.png": "/DreamHouse/static/media/WorkTypePic.8621394a4b8277e8bd2e.png",
     "static/media/slick.svg": "/DreamHouse/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/DreamHouse/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/DreamHouse/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/DreamHouse/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DreamHouse/index.html",
+    "static/media/slick.woff": "/DreamHouse/static/media/slick.295183786cd8a1389865.woff",
     "main.63b658f0.css.map": "/DreamHouse/static/css/main.63b658f0.css.map",
-    "main.42c10306.js.map": "/DreamHouse/static/js/main.42c10306.js.map"
+    "main.893d442e.js.map": "/DreamHouse/static/js/main.893d442e.js.map"
   },
   "entrypoints": [
     "static/css/main.63b658f0.css",
-    "static/js/main.42c10306.js"
+    "static/js/main.893d442e.js"
   ]
 }
