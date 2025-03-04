@@ -42,12 +42,10 @@ export const FormMainTitle = styled.div`
 export const AddressBlock = styled.div``;
 
 export const FormBlock = styled.div`
-  width: 675.3px;
-  height: 747.65px;
-
+  width: 595.3px;
+  height: 667.65px;
   background: #bddac9;
   border-radius: 27.4066px;
-
   padding: 40px;
 `;
 
@@ -172,6 +170,27 @@ export const GeoIcon = styled(BsFillGeoAltFill)`
 
 export const ConteinerMap = styled.div``;
 
+export const Map = styled.iframe`
+  background-blend-mode: luminosity, normal;
+  border-radius: 27.4066px;
+
+  width: 589px;
+  height: 233px;
+
+  border: 0;
+`;
+
+export const StyledTopBlock = styled.div`
+  position: absolute;
+  width: 589px;
+  height: 233px;
+  background: rgba(208, 241, 224, 0.2);
+  background-blend-mode: luminosity, normal;
+  border-radius: 27.4px;
+  pointer-events: none;
+  z-index: 1;
+`;
+
 export const Label = styled.label`
   display: block;
   font-size: 14px;
@@ -188,22 +207,22 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  padding: 12px;
+  padding-left: 26px;
   border: none;
   outline: none;
-  font-size: 14px;
+  font-size: 19.7328px;
   margin-bottom: 15px;
 
   background: #ffffff;
   border-radius: 54.8133px;
 
-  width: 280px;
-  height: 55px;
+  width: 254.64px;
+  height: 78.93px;
 
   font-family: 'Geologica';
   font-style: normal;
   font-weight: 300;
-  font-size: 19.7328px;
+
   line-height: 20px;
 
   color: #84a491;
@@ -224,10 +243,10 @@ export const Textarea = styled.textarea`
 
   color: #84a491;
 
-  padding: 26.3104px 26.3104px 109.627px;
+  padding: 26px;
 
-  width: 587.6px;
-  height: 155.94px;
+  width: 540.6px;
+  height: 129.94px;
 
   border-radius: 21.9253px;
 `;

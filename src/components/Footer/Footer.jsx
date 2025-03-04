@@ -1,5 +1,6 @@
 import {
   FooterConteiner,
+  FooterSpan,
   FooterText,
   LogoImage,
   MediaLink,
@@ -22,7 +23,9 @@ export const Footer = () => {
         <SocialMediaItem>soc media</SocialMediaItem>
         <SocialMediaItem>soc media</SocialMediaItem>
       </SocialMediaBlock>
-      <FooterText>Privacy Policy</FooterText>
+      <FooterText>
+        <FooterSpan>Privacy Policy</FooterSpan>
+      </FooterText>
     </FooterConteiner>
   );
 };

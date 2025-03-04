@@ -158,6 +158,9 @@ export const ImageBlock = styled.img`
 
   bottom: 0;
   right: 0;
+
+  mix-blend-mode: luminosity;
+  opacity: 0.57;
 `;
 
 export const MainSecBlockText = styled.h3`
