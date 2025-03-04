@@ -3,7 +3,6 @@ import {
   FooterSpan,
   FooterText,
   LogoImage,
-  MediaLink,
   SocialMediaBlock,
   SocialMediaItem,
   SocialMediaItemIcon,
