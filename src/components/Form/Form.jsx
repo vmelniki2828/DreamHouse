@@ -18,9 +18,11 @@ import {
   Label,
   MainAddressText,
   MainSecAddressText,
+  Map,
   MessegeIcon,
   PhoneIcon,
   Row,
+  StyledTopBlock,
   Textarea,
 } from './Form.styled';
 
@@ -52,11 +54,9 @@ export const Form = () => {
             </ContactItemAdress>
           </ContactList>
           <ConteinerMap>
-            <iframe
+            <StyledTopBlock />
+            <Map
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4309255152193!2d-122.42773082464984!3d37.77993971186333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580a2b15f8d2b%3A0x36df21e94cffd932!2zNzk0IE1jQWxsaXN0ZXIgU3QsIFNhbiBGcmFuY2lzY28sIENBIDk0MTAyLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1741032245016!5m2!1sru!2sua"
-              width="589"
-              height="233"
-              style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

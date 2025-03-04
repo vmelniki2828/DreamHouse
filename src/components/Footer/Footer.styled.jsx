@@ -4,7 +4,7 @@ export const FooterConteiner = styled.div`
   padding: 49px 50px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: #ffffff;
 
   background: #ffffff;
@@ -32,6 +32,9 @@ export const SocialMediaBlock = styled.ul`
   align-items: center;
   justify-content: center;
   gap: 30px;
+
+  margin-right: 250px;
+  margin-left: 250px;
 `;
 
 export const SocialMediaItem = styled.li`
@@ -65,4 +68,10 @@ export const LogoImage = styled.img`
   height: 64px;
 
   color: black;
+`;
+
+export const FooterSpan = styled.span`
+  text-decoration: underline;
+
+  color: #7ba48c;
 `;
