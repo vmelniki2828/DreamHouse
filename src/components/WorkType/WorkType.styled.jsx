@@ -3,7 +3,7 @@ import imgIcon from '../../images/Check_Circle.png';
 import { MdCancel } from 'react-icons/md';
 
 export const WorkTypeContainer = styled.div`
-  padding: 0 40px 80px;
+  padding: 0 40px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +40,8 @@ export const QuestionTitleItem = styled.h2`
   text-transform: uppercase;
 
   color: #0f4131;
+
+  margin: 0 0 60px 0px;
 `;
 
 export const WorkTypeItemContainer = styled.div`
@@ -49,7 +51,8 @@ export const WorkTypeItemContainer = styled.div`
 `;
 
 export const WorkTypeFirstBlock = styled.div`
-  width: 797px;
+  width: 677px;
+  height: 436px;
 
   border-radius: 25.9869px;
   background: #0f4131;

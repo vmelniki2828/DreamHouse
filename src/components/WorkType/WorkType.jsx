@@ -65,7 +65,7 @@ const WorkType = () => {
               Возможны задержки
             </ItemSecBlock>
           </ListSecBlock>
-          <BlockSecButton>Выбрать аутсорсинг</BlockSecButton>
+          <BlockSecButton>Выбрать АККОРД</BlockSecButton>
         </WorkTypeSecBlock>
       </WorkTypeItemContainer>
     </WorkTypeContainer>
