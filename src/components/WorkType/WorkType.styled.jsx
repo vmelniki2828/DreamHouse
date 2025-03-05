@@ -63,7 +63,8 @@ export const WorkTypeFirstBlock = styled.div`
 `;
 
 export const WorkTypeSecBlock = styled.div`
-  width: 410px;
+  width: 424px;
+  height: 455px;
 
   background: #ffffff;
   border: 1.08279px solid #065b2a;

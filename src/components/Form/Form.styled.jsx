@@ -24,7 +24,7 @@ export const FormMainTitle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 197px;
+  width: 215px;
   height: 51px;
 
   border: 3px solid rgba(15, 65, 49, 0.5);
@@ -246,8 +246,8 @@ export const Textarea = styled.textarea`
 
   padding: 26px;
 
-  width: 540.6px;
-  height: 129.94px;
+  width: 535.6px;
+  height: 103.94px;
 
   border-radius: 21.9253px;
 `;
