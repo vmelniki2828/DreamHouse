@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterConteiner = styled.div`
-  padding: 49px 50px;
+  padding: 49px 59px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,8 +33,8 @@ export const SocialMediaBlock = styled.ul`
   justify-content: center;
   gap: 30px;
 
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: 300px;
+  margin-left: 127px;
 `;
 
 export const SocialMediaItem = styled.li`
@@ -61,6 +61,9 @@ export const SocialMediaItem = styled.li`
 export const SocialMediaItemIcon = styled.li`
   width: 56px;
   height: 64px;
+
+  margin-right: 30px;
+  margin-left: 30px;
 `;
 
 export const LogoImage = styled.img`

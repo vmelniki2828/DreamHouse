@@ -4,7 +4,7 @@ import { FaPhone } from 'react-icons/fa6';
 import { BsFillGeoAltFill } from 'react-icons/bs';
 
 export const FormConteiner = styled.div`
-  padding: 0 40px 80px;
+  padding: 0 40px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,18 +35,20 @@ export const FormMainTitle = styled.div`
   font-weight: 500;
   font-size: 22px;
   line-height: 93%;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   color: #0f4131;
+
+  text-transform: uppercase;
 `;
 
 export const AddressBlock = styled.div``;
 
 export const FormBlock = styled.div`
   width: 595.3px;
-  height: 667.65px;
+  height: 590.65px;
   background: #bddac9;
   border-radius: 27.4066px;
-  padding: 40px;
+  padding: 71px 43px 86px 43px;
 `;
 
 export const MainAddressText = styled.h3`
@@ -211,7 +213,6 @@ export const Input = styled.input`
   border: none;
   outline: none;
   font-size: 19.7328px;
-  margin-bottom: 15px;
 
   background: #ffffff;
   border-radius: 54.8133px;

@@ -3,7 +3,7 @@ import service_bg from '../../images/service_test_img.png';
 import { FaArrowRight } from 'react-icons/fa';
 
 export const ServicesMainContainer = styled.div`
-  padding: 0 40px 80px;
+  padding: 0 40px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
