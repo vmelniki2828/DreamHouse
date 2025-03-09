@@ -26,6 +26,7 @@ export const FormMainTitle = styled.div`
   align-items: center;
   width: 215px;
   height: 51px;
+  
 
   border: 3px solid rgba(15, 65, 49, 0.5);
   border-radius: 75px;

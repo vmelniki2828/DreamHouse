@@ -29,15 +29,15 @@ import {
 export const Form = () => {
   return (
     <FormConteiner>
-      <FormMainTitle>Форма заявки</FormMainTitle>
+      <FormMainTitle>Formularz</FormMainTitle>
       <FromFlexConteiner>
         <AddressBlock>
-          <MainAddressText>оформить работы</MainAddressText>
-          <MainSecAddressText>Оставьте заявку</MainSecAddressText>
+          <MainAddressText>zarejestruj pracę</MainAddressText>
+          <MainSecAddressText>Zostaw swoje zgłoszenie</MainSecAddressText>
           <AddressText>
-            После отправки заявки, вы получите специалистов или смету на работы"
+            Po złożeniu wniosku otrzymają Państwo specjalistów lub wycenę prac.”
           </AddressText>
-          <ContactMainText>НАШИ КОНТАКТЫ</ContactMainText>
+          <ContactMainText>NASZE KONTAKTY</ContactMainText>
           <ContactList>
             <ContactItem>
               <MessegeIcon /> contact@company.com
@@ -66,27 +66,27 @@ export const Form = () => {
         <FormBlock>
           <Row>
             <Column>
-              <Label>Имя</Label>
+              <Label>Imię</Label>
               <Input type="text" placeholder="John Carter" />
             </Column>
             <Column>
-              <Label>Услуга</Label>
+              <Label>Praca</Label>
               <Input type="email" placeholder="example@email.com" />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Label>Телефон</Label>
+              <Label>Telefon</Label>
               <Input type="text" placeholder="(123) 456 - 789" />
             </Column>
             <Column>
-              <Label>Компания</Label>
+              <Label>Firma</Label>
               <Input type="text" placeholder="Facebook" />
             </Column>
           </Row>
-          <Label>Комментарий (опционально)</Label>
-          <Textarea placeholder="Please type your message here..." />
-          <Button>Отправить заявку</Button>
+          <Label>Komentarz (opcjonalnie)</Label>
+          <Textarea placeholder="Proszę wpisać wiadomość prawną nere..." />
+          <Button>Wyślij zgłoszenie</Button>
         </FormBlock>
       </FromFlexConteiner>
     </FormConteiner>

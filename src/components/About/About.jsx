@@ -32,7 +32,7 @@ const About = () => {
   return (
     <AboutMainContainer>
       <TopBlock />
-      <AboutMainTitle>О НАС</AboutMainTitle>
+      <AboutMainTitle>O NAS</AboutMainTitle>
 
       <AboutBigConatiner>
         <AboutBigLeftContainer>
@@ -41,23 +41,25 @@ const About = () => {
               {' '}
               Dream House –{' '}
             </AboutBigLeftContainerTextSpan>
-            строительная компания полного цикла.
+            firma budowlana o pełnym zakresie usług.
           </AboutBigLeftContainerText>
           <AboutBigLeftContainerSubText>
-            Мы – не просто подрядчики, а профессионалы,{' '}
+            Nie jesteśmy tylko wykonawcą, ale profesjonalistami,{' '}
             <AboutBigLeftContainerSubTextSpan>
-              которые:
+              którzy:
             </AboutBigLeftContainerSubTextSpan>
           </AboutBigLeftContainerSubText>
           <AboutBigLeftContainerList>
-            <li>Строят коммерческую и жилую недвижимость.</li>
-            <li>Комплектуют бригады рабочих для стройплощадок.</li>
-            <li>Принимают объекты в аккорд и гарантируют сроки сдачи.</li>
+            <li>Budują nieruchomości komercyjne i mieszkalne.</li>
+            <li>Kompletują ekipy pracowników na place budowy.</li>
+            <li>
+              Przyjmują obiekty w akordzie, gwarantując terminowe oddanie.
+            </li>
           </AboutBigLeftContainerList>
         </AboutBigLeftContainer>
         <AboutBigRightContainer>
           <AboutSliderTopConInfo>
-            Фото наших объектов и рабочих в процессе работы.
+            Zdjęcia naszych obiektów i pracowników w trakcie pracy.
           </AboutSliderTopConInfo>
           <SliderWrapper>
             <Slider {...settings}>

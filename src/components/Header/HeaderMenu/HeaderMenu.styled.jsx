@@ -156,7 +156,7 @@ export const ButtonImage = styled.img`
 
 export const ImageInside = styled.div`
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 78px;
   transform: translate(-50%, -50%);
   background-color: transparent;

@@ -21,22 +21,30 @@ import { useState } from 'react';
 const Services = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
+  const works = [
+    'Prace ogólnobudowlane',
+    'Prace monolityczne i betonowe',
+    'Murowanie (cegła, bloczki)',
+    'Prace elewacyjne',
+    'Prace wykończeniowe',
+  ];
+
   return (
     <ServicesMainContainer>
-      <ServicesMainTitle>УСЛУГИ</ServicesMainTitle>
+      <ServicesMainTitle>USŁUGI</ServicesMainTitle>
       <ServiceBlock>
         <ServiceList>
-          {[...Array(5)].map((_, index) => (
+          {works.map((work, index) => (
             <ServiceItem
               key={index}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
               <HoveredBlock isHovered={hoveredIndex === index} />
-              <ItemMainText>Общестроительные работы</ItemMainText>
+              <ItemMainText>{work}</ItemMainText>
               <ItemButtonBlock isHovered={hoveredIndex === index}>
                 <ItemButton isHovered={hoveredIndex === index}>
-                  Заказать рабочих
+                  Zamawiaj pracowników{' '}
                   <ArrowItemButton isHovered={hoveredIndex === index} />
                 </ItemButton>
               </ItemButtonBlock>
@@ -45,7 +53,7 @@ const Services = () => {
           <ServiceItemLink>
             <ImgItem src={build_img} alt="house" />
             <TextItemBlock>
-              <TextItem>Оставить заявку на работы</TextItem>
+              <TextItem>Zostaw prośbę o pracę</TextItem>
               <ArrowItem />
             </TextItemBlock>
           </ServiceItemLink>

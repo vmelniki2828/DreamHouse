@@ -23,49 +23,49 @@ import img from '../../images/WorkTypePic.png';
 const WorkType = () => {
   return (
     <WorkTypeContainer>
-      <WorkTypeMainTitle>ВИДЫ РАБОТ</WorkTypeMainTitle>
+      <WorkTypeMainTitle>RODZAJE PRACY</WorkTypeMainTitle>
       <QuestionTitleItem>
-        Какой формат сотрудничества подходит именно вам?
+        Jaki model współpracy jest dla Ciebie odpowiedni?
       </QuestionTitleItem>
       <WorkTypeItemContainer>
         <WorkTypeFirstBlock>
-          <MainBlockText>Аутсорсинг</MainBlockText>
+          <MainBlockText>Outsourcing</MainBlockText>
           <BlockText>
-            Работы проводятся под вашим контролем с почасовой оплатой труда.
+            Praca jest wykonywana pod Twoją kontrolą i płatna godzinowo.
           </BlockText>
           <ListBlock>
-            <ItemBlock>Оплата только за выполненные часы</ItemBlock>
-            <ItemBlock>Можно менять объем и сроки</ItemBlock>
-            <ItemBlock>Вы контролируете процес</ItemBlock>
-            <ItemBlock>Минимальные риски</ItemBlock>
+            <ItemBlock>Płacisz tylko za przepracowane godziny</ItemBlock>
+            <ItemBlock>Możliwość modyfikacji zakresu i terminów</ItemBlock>
+            <ItemBlock>Ty nadzorujesz proces</ItemBlock>
+            <ItemBlock>Minimalne ryzyko</ItemBlock>
           </ListBlock>
-          <BlockButton>Выбрать аутсорсинг</BlockButton>
+          <BlockButton>Wybierz outsourcing</BlockButton>
           <ImageBlock src={img} alt={img} />
         </WorkTypeFirstBlock>
         <WorkTypeSecBlock>
-          <MainSecBlockText>Аккордные работы</MainSecBlockText>
+          <MainSecBlockText>Prace akordowe</MainSecBlockText>
           <SecBlockText>
-            Выполнение задачи постройки или ремонта под ключ
+            Wykonujemy prace budowlane lub remontowe pod klucz
           </SecBlockText>
           <ListSecBlock>
             <ItemSecBlock>
               <ListIcon />
-              Фиксированная цена (скрытые затраты)
+              Cena z góry (mogą wystąpić ukryte koszty){' '}
             </ItemSecBlock>
             <ItemSecBlock>
               <ListIcon />
-              Обьём и срок работы зафиксированы
+              Wielkość i czas trwania pracy są stałe
             </ItemSecBlock>
             <ItemSecBlock>
               <ListIcon />
-              Всё зависит от подрядчика
+              Wszystko zależy od wykonawcy{' '}
             </ItemSecBlock>
             <ItemSecBlock>
               <ListIcon />
-              Возможны задержки
+              Możliwe opóźnienia{' '}
             </ItemSecBlock>
           </ListSecBlock>
-          <BlockSecButton>Выбрать АККОРД</BlockSecButton>
+          <BlockSecButton>Wybierz AKORD</BlockSecButton>
         </WorkTypeSecBlock>
       </WorkTypeItemContainer>
     </WorkTypeContainer>

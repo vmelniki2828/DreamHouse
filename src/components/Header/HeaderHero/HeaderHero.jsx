@@ -18,20 +18,20 @@ const HeaderHero = () => {
   return (
     <HeroMainContainer>
       <HeroTitle>
-        Берём проекты в аккорд, комплектуем бригады
-        <br /> и внедряем новые технологии.
+        Realizujemy projekty w akordzie, kompletujemy ekipy
+        <br /> i wprowadzamy nowe technologie.
       </HeroTitle>
       <MainTitle>
-        Строительная компания <br />
+        Firma budowlana <br />
         <MainTitleSpan>Dream House -</MainTitleSpan>
         <br />
-        надежный подрядчик
-        <br /> для вашего бизнеса
+        niezawodny wykonawca
+        <br /> dla Twojego biznesu
       </MainTitle>
       <HeaderButtonItems>
         <ImageBlock>
           <ButtonImageBig src={header_button} alt="header_button" />
-          <ImageInsideBig>Получить консультацию</ImageInsideBig>
+          <ImageInsideBig>Uzyskaj konsultację</ImageInsideBig>
           <ImageButtonArrowBig src={button_arrow} alt="button_arrow" />
         </ImageBlock>
         <HeaderHeroRightButton>

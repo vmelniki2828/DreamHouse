@@ -96,13 +96,13 @@ export const AboutBigConatiner = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 41px;
+  gap: 35px;
 `;
 
 export const AboutBigLeftContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 657px;
+  width: 670px;
 `;
 
 export const AboutBigLeftContainerText = styled.h3`

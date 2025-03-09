@@ -19,15 +19,15 @@ const HeaderMenu = () => {
       <LogoImg src={logo} alt="Logo" />
       <CurvedDiv>
         <InCurvedDiv>
-          <NavItem href="#">О нас</NavItem>
-          <NavItem href="#">Услуги</NavItem>
-          <NavItem href="#">Преимущества</NavItem>
-          <NavItem href="#">Контакты</NavItem>
+          <NavItem href="#">O nas</NavItem>
+          <NavItem href="#">Usługi</NavItem>
+          <NavItem href="#">Zalety</NavItem>
+          <NavItem href="#">Kontakt</NavItem>
         </InCurvedDiv>
       </CurvedDiv>
       <ImageBlock>
         <ButtonImage src={header_button} alt="header_button" />
-        <ImageInside>Оставить заявку</ImageInside>
+        <ImageInside>Złóż zamówienie</ImageInside>
         <ImageButtonArrow src={button_arrow} alt="button_arrow" />
       </ImageBlock>
     </HeaderMenuContainer>
