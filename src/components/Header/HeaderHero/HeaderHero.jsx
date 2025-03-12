@@ -2,8 +2,10 @@ import {
   ButtonImageBig,
   HeaderButtonItems,
   HeaderHeroRightButton,
+  HeroIcon,
   HeroMainContainer,
   HeroTitle,
+  HeroTitleTab,
   ImageButtonArrowBig,
   ImageInsideBig,
   MainTitle,
@@ -13,10 +15,12 @@ import header_button from '../../../images/header_big_botton.png';
 import button_arrow from '../../../images/button_arrow.png';
 import { ImageBlock } from '../HeaderMenu/HeaderMenu.styled';
 import whiteBigArrow from '../../../images/whiteBigArrow.png';
+import logo from '../../../images/Logo.png';
 
 const HeaderHero = () => {
   return (
     <HeroMainContainer>
+      <HeroIcon src={logo} />
       <HeroTitle>
         Realizujemy projekty w akordzie, kompletujemy ekipy
         <br /> i wprowadzamy nowe technologie.
@@ -28,6 +32,10 @@ const HeaderHero = () => {
         niezawodny wykonawca
         <br /> dla Twojego biznesu
       </MainTitle>
+      <HeroTitleTab>
+        Realizujemy projekty w akordzie, kompletujemy ekipy
+        <br /> i wprowadzamy nowe technologie.
+      </HeroTitleTab>
       <HeaderButtonItems>
         <ImageBlock>
           <ButtonImageBig src={header_button} alt="header_button" />

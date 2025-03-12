@@ -74,6 +74,10 @@ export const CurvedDiv = styled.div`
   clip-rule: evenodd;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   margin: 0 105px 0 276px;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 export const InCurvedDiv = styled.div`
   width: 480px;
@@ -86,6 +90,10 @@ export const InCurvedDiv = styled.div`
 export const LogoImg = styled.img`
   width: 32px;
   height: 37.11px;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const NavItem = styled.a`
@@ -147,6 +155,25 @@ export const ImageBlock = styled.div`
   position: relative;
   display: inline-block;
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    display: block;
+    margin: 71px auto;
+  }
+`;
+
+export const ImageBlockMenu = styled.div`
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const ButtonImage = styled.img`

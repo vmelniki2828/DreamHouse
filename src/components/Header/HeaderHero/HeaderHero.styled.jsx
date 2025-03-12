@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const HeroMainContainer = styled.div`
   margin-top: 148px;
+
+  @media (max-width: 1024px) {
+    margin-top: 50px;
+  }
 `;
 
 export const HeroTitle = styled.h2`
@@ -12,6 +16,40 @@ export const HeroTitle = styled.h2`
   line-height: 105.91%;
   margin: 0 0 100px 0;
   color: #ffffff;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    line-height: 105.91%;
+
+    text-align: center;
+    display: block;
+    margin: 0 0 50px 0;
+  }
+`;
+
+export const HeroTitleTab = styled.h2`
+  font-family: 'Onest', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 105.91%;
+  text-align: center;
+
+  color: #ffffff;
+
+  margin: 50px 0 0 0;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const MainTitle = styled.h1`
@@ -23,6 +61,19 @@ export const MainTitle = styled.h1`
   text-transform: uppercase;
   margin: 0;
   color: #ffffff;
+
+  @media (max-width: 1024px) {
+    line-height: 105.91%;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16.9683px;
+    line-height: 105.91%;
+
+    text-align: center;
+    text-transform: uppercase;
+  }
 `;
 
 export const MainTitleSpan = styled.span`
@@ -34,6 +85,18 @@ export const MainTitleSpan = styled.span`
   text-transform: uppercase;
 
   color: #ffffff;
+
+  @media (max-width: 1024px) {
+    line-height: 90%;
+  }
+
+  @media (max-width: 768px) {
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.2418px;
+    line-height: 90%;
+  }
 `;
 
 export const HeaderButtonItems = styled.div`
@@ -53,6 +116,10 @@ export const HeaderHeroRightButton = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const ButtonImageBig = styled.img`
@@ -84,4 +151,21 @@ export const ImageButtonArrowBig = styled.img`
   top: 50%;
   right: 12px;
   transform: translateY(-50%);
+`;
+
+export const HeroIcon = styled.img`
+  width: 152px;
+  height: 177px;
+  display: block;
+  margin: 30px auto;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    width: 42px;
+    height: 48.71px;
+    margin: 50px auto;
+  }
 `;

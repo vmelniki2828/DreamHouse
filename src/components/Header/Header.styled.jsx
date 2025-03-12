@@ -9,4 +9,8 @@ export const HeaderMainContainer = styled.div`
   overflow: hidden;
   padding: 0 40px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    height: 548px;
+  }
 `;
