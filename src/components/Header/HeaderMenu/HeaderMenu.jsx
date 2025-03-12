@@ -2,7 +2,7 @@ import {
   ButtonImage,
   CurvedDiv,
   HeaderMenuContainer,
-  ImageBlock,
+  ImageBlockMenu,
   ImageButtonArrow,
   ImageInside,
   InCurvedDiv,
@@ -25,11 +25,11 @@ const HeaderMenu = () => {
           <NavItem href="#">Kontakt</NavItem>
         </InCurvedDiv>
       </CurvedDiv>
-      <ImageBlock>
+      <ImageBlockMenu>
         <ButtonImage src={header_button} alt="header_button" />
         <ImageInside>Złóż zamówienie</ImageInside>
         <ImageButtonArrow src={button_arrow} alt="button_arrow" />
-      </ImageBlock>
+      </ImageBlockMenu>
     </HeaderMenuContainer>
   );
 };

@@ -62,6 +62,17 @@ export const TopBlock = styled.div`
   width: 615px;
   height: 38px;
   margin-top: -38px;
+
+  @media (max-width: 1024px) {
+    width: 616px;
+    height: 53px;
+  }
+
+  @media (max-width: 768px) {
+    width: 294px;
+    height: 18px;
+    margin-top: -18px;
+  }
 `;
 
 export const AboutMainContainer = styled.div`
@@ -71,6 +82,14 @@ export const AboutMainContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 101px;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 70px;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const AboutMainTitle = styled.div`
@@ -97,12 +116,22 @@ export const AboutBigConatiner = styled.div`
   flex-direction: row;
   justify-content: center;
   gap: 35px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column-reverse;
+    gap: 25px;
+  }
 `;
 
 export const AboutBigLeftContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 670px;
+
+  @media (max-width: 768px) {
+    width: 287px;
+    margin: 25px auto;
+  }
 `;
 
 export const AboutBigLeftContainerText = styled.h3`
@@ -114,6 +143,10 @@ export const AboutBigLeftContainerText = styled.h3`
   text-transform: uppercase;
   margin: 0 0 32px 0;
   color: #0f4131;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const AboutBigLeftContainerTextSpan = styled.h3`
@@ -130,6 +163,18 @@ export const AboutBigLeftContainerSubText = styled.p`
   line-height: 43.42px;
 
   color: #0f4131;
+
+  @media (max-width: 1024px) {
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 20.4337px;
+    line-height: 105.91%;
+    text-align: center;
+
+    color: #0f4131;
+  }
 `;
 
 export const AboutBigLeftContainerSubTextSpan = styled.span`
@@ -146,6 +191,25 @@ export const AboutBigLeftContainerList = styled.ul`
   margin: 20px 0 0 0;
 
   color: #0f4131;
+
+  @media (max-width: 1024px) {
+    list-style: none;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 0px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 20.4337px;
+    line-height: 105.91%;
+
+    color: #0f4131;
+
+    padding-left: 0px;
+  }
 `;
 
 export const AboutBigRightContainer = styled.div`
@@ -231,6 +295,12 @@ export const AboutSliderTopConInfo = styled.div`
 
   position: relative;
   z-index: 1;
+
+  @media (max-width: 768px) {
+    width: 323px;
+    height: 38px;
+    font-size: 10px;
+  }
 `;
 export const ImgSliderBlock = styled.div`
   background-color: #ffffff;
@@ -304,8 +374,9 @@ export const ImgSliderBlock = styled.div`
 
 export const SliderWrapper = styled.div`
   width: 100%;
-  max-width: 600px; /* Можно увеличить */
+  max-width: 600px;
   margin: 0 auto;
+  overflow: hidden;
 
   .slick-slide img {
     width: 100%;
@@ -317,5 +388,31 @@ export const SliderWrapper = styled.div`
   .slick-dots {
     bottom: 5px;
     z-index: 2;
+  }
+`;
+
+export const AboutMobContainerText = styled.div`
+  font-family: 'Onest', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 67px;
+  line-height: 105.91%;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #0f4131;
+
+  margin-bottom: 40px;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    line-height: 105.91%;
+
+    color: #0f4131;
+    margin-bottom: 30px;
   }
 `;
