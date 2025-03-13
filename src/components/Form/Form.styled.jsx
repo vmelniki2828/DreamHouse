@@ -18,6 +18,10 @@ export const FromFlexConteiner = styled.div`
   justify-content: center;
 
   gap: 54px;
+
+  @media (max-width: 1024px) {
+    align-items: center;
+  }
 `;
 
 export const FormMainTitle = styled.div`
@@ -26,7 +30,6 @@ export const FormMainTitle = styled.div`
   align-items: center;
   width: 215px;
   height: 51px;
-  
 
   border: 3px solid rgba(15, 65, 49, 0.5);
   border-radius: 75px;
@@ -40,9 +43,22 @@ export const FormMainTitle = styled.div`
   color: #0f4131;
 
   text-transform: uppercase;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    margin-bottom: 25px;
+  }
 `;
 
-export const AddressBlock = styled.div``;
+export const AddressBlock = styled.div`
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
 
 export const FormBlock = styled.div`
   width: 595.3px;
@@ -50,6 +66,20 @@ export const FormBlock = styled.div`
   background: #bddac9;
   border-radius: 27.4066px;
   padding: 71px 43px 86px 43px;
+
+  @media (max-width: 1024px) {
+    width: 277.97px;
+    height: 279.04px;
+
+    padding: 33px 20px 40px 20px;
+  }
+
+  @media (max-width: 768px) {
+    width: 248px;
+    height: 836px;
+
+    padding: 20px;
+  }
 `;
 
 export const MainAddressText = styled.h3`
@@ -65,6 +95,13 @@ export const MainAddressText = styled.h3`
   color: #0f4131;
 
   margin: 0 0 8px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 9.29129px;
+    line-height: 10px;
+
+    margin: 0 0 3px 0;
+  }
 `;
 
 export const MainSecAddressText = styled.h4`
@@ -77,6 +114,13 @@ export const MainSecAddressText = styled.h4`
   color: #0f4131;
 
   margin: 0 0 17px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 22.712px;
+    line-height: 26px;
+
+    margin: 0 0 8px 0;
+  }
 `;
 
 export const AddressText = styled.p`
@@ -91,6 +135,15 @@ export const AddressText = styled.p`
   color: #84a491;
 
   margin: 0 0 44px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 13px;
+    line-height: 15px;
+
+    width: 250.86px;
+
+    margin: 0 0 21px 0;
+  }
 `;
 
 export const ContactMainText = styled.p`
@@ -105,6 +158,13 @@ export const ContactMainText = styled.p`
   color: #0f4131;
 
   margin: 0 0 23px 0px;
+
+  @media (max-width: 1024px) {
+    font-size: 9.29129px;
+    line-height: 10px;
+
+    margin: 0 0 9px 0px;
+  }
 `;
 
 export const ContactList = styled.ul`
@@ -114,6 +174,10 @@ export const ContactList = styled.ul`
   margin: 0 0 54px 0;
 
   list-style: none;
+
+  @media (max-width: 1024px) {
+    margin: 0 0 25px 0;
+  }
 `;
 
 export const ContactItem = styled.li`
@@ -132,14 +196,15 @@ export const ContactItem = styled.li`
   &:last-child {
     margin-bottom: 0;
   }
+
+  @media (max-width: 1024px) {
+    font-size: 9.29129px;
+    line-height: 9px;
+    margin-bottom: 12px;
+  }
 `;
 
 export const ContactItemAdress = styled.li`
-  font-family: 'Geologica';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 19.7328px;
-  line-height: 20px;
   display: flex;
   align-items: baseline;
   gap: 6px;
@@ -154,21 +219,48 @@ export const ContactItemAdress = styled.li`
 
 export const ContactSpan = styled.span`
   width: 193.72px;
+
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19.7328px;
+  line-height: 20px;
+
+  @media (max-width: 1024px) {
+    font-size: 9.29129px;
+    line-height: 9px;
+
+    width: 91.21px;
+  }
 `;
 
 export const MessegeIcon = styled(MdMailOutline)`
   width: 18px;
   height: 18px;
+
+  @media (max-width: 1024px) {
+    width: 10px;
+    height: 10px;
+  }
 `;
 
 export const PhoneIcon = styled(FaPhone)`
   width: 18px;
   height: 18px;
+
+  @media (max-width: 1024px) {
+    width: 10px;
+    height: 10px;
+  }
 `;
 
 export const GeoIcon = styled(BsFillGeoAltFill)`
   width: 18px;
   height: 18px;
+  @media (max-width: 1024px) {
+    width: 10px;
+    height: 10px;
+  }
 `;
 
 export const ConteinerMap = styled.div``;
@@ -181,6 +273,11 @@ export const Map = styled.iframe`
   height: 233px;
 
   border: 0;
+
+  @media (max-width: 1024px) {
+    width: 300.71px;
+    height: 200px;
+  }
 `;
 
 export const StyledTopBlock = styled.div`
@@ -192,6 +289,11 @@ export const StyledTopBlock = styled.div`
   border-radius: 27.4px;
   pointer-events: none;
   z-index: 1;
+
+  @media (max-width: 1024px) {
+    width: 300.71px;
+    height: 200px;
+  }
 `;
 
 export const Label = styled.label`
@@ -207,6 +309,20 @@ export const Label = styled.label`
   line-height: 20px;
 
   color: #0f4131;
+
+  @media (max-width: 1024px) {
+    font-size: 9.29129px;
+    line-height: 9px;
+
+    margin-bottom: 6px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 19.7328px;
+    line-height: 20px;
+
+    margin-bottom: 13px;
+  }
 `;
 
 export const Input = styled.input`
@@ -228,6 +344,26 @@ export const Input = styled.input`
   line-height: 20px;
 
   color: #84a491;
+
+  @media (max-width: 1024px) {
+    width: 118.14px;
+    height: 35.17px;
+
+    padding-left: 12px;
+
+    font-size: 9.29129px;
+    line-height: 9px;
+  }
+
+  @media (max-width: 768px) {
+    width: 219px;
+    height: 66px;
+
+    padding-left: 22px;
+
+    font-size: 17.111px;
+    line-height: 17px;
+  }
 `;
 
 export const Textarea = styled.textarea`
@@ -251,6 +387,26 @@ export const Textarea = styled.textarea`
   height: 103.94px;
 
   border-radius: 21.9253px;
+
+  @media (max-width: 1024px) {
+    padding: 12px;
+
+    width: 252.67px;
+    height: 50.01px;
+
+    font-size: 9.29129px;
+    line-height: 9px;
+  }
+
+  @media (max-width: 768px) {
+    width: 209px;
+    height: 178px;
+
+    padding-left: 22px;
+
+    font-size: 17.111px;
+    line-height: 17px;
+  }
 `;
 
 export const Button = styled.button`
@@ -276,6 +432,29 @@ export const Button = styled.button`
   color: #ffffff;
 
   margin-top: 35px;
+
+  @media (max-width: 1024px) {
+    width: 122.17px;
+    height: 34.78px;
+
+    font-size: 9.29129px;
+    line-height: 9px;
+
+    color: #ffffff;
+
+    margin-top: 16px;
+  }
+
+  @media (max-width: 768px) {
+    width: 243px;
+    height: 68px;
+
+    display: block;
+
+    font-size: 17.111px;
+    line-height: 17px;
+    margin: 23px auto;
+  }
 `;
 
 export const Row = styled.div`
@@ -283,6 +462,15 @@ export const Row = styled.div`
   gap: 15px;
 
   margin-bottom: 35px;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 16px;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 22px;
+    flex-direction: column;
+  }
 `;
 
 export const Column = styled.div`

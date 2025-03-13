@@ -8,6 +8,14 @@ export const ServicesMainContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 1024px) {
+    padding: 0 40px 42px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 40px 50px;
+  }
 `;
 
 export const ServicesMainTitle = styled.div`
@@ -27,6 +35,14 @@ export const ServicesMainTitle = styled.div`
   line-height: 93%;
   margin-bottom: 80px;
   color: #0f4131;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 25px;
+  }
 `;
 
 export const ServiceBlock = styled.div``;
@@ -43,6 +59,7 @@ export const ServiceList = styled.ul`
   justify-content: center;
 
   max-width: 1400px;
+  padding: 0;
 `;
 
 export const ServiceItem = styled.li`
@@ -61,6 +78,16 @@ export const ServiceItem = styled.li`
   flex-direction: column;
 
   position: relative;
+
+  @media (max-width: 1024px) {
+    width: 294.48px;
+    height: 330.39px;
+  }
+
+  @media (max-width: 768px) {
+    width: 288px;
+    height: 323.12px;
+  }
 `;
 
 export const ItemMainText = styled.h1`
@@ -74,6 +101,26 @@ export const ItemMainText = styled.h1`
   color: #ffffff;
 
   margin: 0;
+
+  @media (max-width: 1024px) {
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.1386px;
+    line-height: 116%;
+
+    color: #ffffff;
+  }
+
+  @media (max-width: 768px) {
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24.5854px;
+    line-height: 116%;
+
+    color: #ffffff;
+  }
 `;
 
 export const ItemButtonBlock = styled.div`
@@ -143,6 +190,16 @@ export const ItemButtonBlock = styled.div`
     45.153% 100%
   );
   clip-rule: evenodd;
+
+  @media (max-width: 1024px) {
+    width: 261.44px;
+    height: 30.88px;
+  }
+
+  @media (max-width: 768px) {
+    width: 255.69px;
+    height: 30.2px;
+  }
 `;
 
 export const HoveredBlock = styled.div`
@@ -233,6 +290,22 @@ export const ItemButton = styled.button`
   border: 0;
 
   transition: color 0.3s ease-in-out;
+
+  @media (max-width: 1024px) {
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.9284px;
+    line-height: 0%;
+  }
+
+  @media (max-width: 768px) {
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6439px;
+    line-height: 0%;
+  }
 `;
 
 export const ServiceItemLink = styled.div`
@@ -249,6 +322,16 @@ export const ServiceItemLink = styled.div`
   flex-direction: column;
 
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    width: 291.26px;
+    height: 330px;
+  }
+
+  @media (max-width: 768px) {
+    width: 288px;
+    height: 326.31px;
+  }
 `;
 
 export const ImgItem = styled.img`
@@ -256,6 +339,16 @@ export const ImgItem = styled.img`
   height: 219px;
 
   border-radius: 20px 24px 24px 24px;
+
+  @media (max-width: 1024px) {
+    width: 262.57px;
+    height: 157.11px;
+  }
+
+  @media (max-width: 768px) {
+    width: 259.63px;
+    height: 155.35px;
+  }
 `;
 
 export const TextItemBlock = styled.div`
@@ -274,6 +367,30 @@ export const TextItem = styled.p`
   text-transform: uppercase;
   color: #0f4131;
   margin: 48px 26px 0 0;
+
+  @media (max-width: 1024px) {
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.773px;
+    line-height: 87%;
+
+    margin: 32px 18px 0 0;
+
+    width: 200.15px;
+  }
+
+  @media (max-width: 768px) {
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.3725px;
+    line-height: 87%;
+
+    margin: 31px 18px 0 0;
+
+    width: 197.91px;
+  }
 `;
 
 export const ArrowItemButton = styled(FaArrowRight)`
