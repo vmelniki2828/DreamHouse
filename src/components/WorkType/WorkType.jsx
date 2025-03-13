@@ -5,9 +5,11 @@ import {
   ImageBlock,
   ItemBlock,
   ItemSecBlock,
+  ItemTabBlock,
   ListBlock,
   ListIcon,
   ListSecBlock,
+  ListSecBlockTab,
   MainBlockText,
   MainSecBlockText,
   QuestionTitleItem,
@@ -65,6 +67,30 @@ const WorkType = () => {
               Możliwe opóźnienia{' '}
             </ItemSecBlock>
           </ListSecBlock>
+
+          <ListSecBlockTab>
+            <ItemTabBlock>
+              <ItemSecBlock>
+                <ListIcon />
+                Cena z góry (mogą wystąpić ukryte koszty)
+              </ItemSecBlock>
+              <ItemSecBlock>
+                <ListIcon />
+                Wielkość i czas trwania pracy są stałe
+              </ItemSecBlock>
+            </ItemTabBlock>
+            <ItemTabBlock>
+              <ItemSecBlock>
+                <ListIcon />
+                Wszystko zależy od wykonawcy{' '}
+              </ItemSecBlock>
+              <ItemSecBlock>
+                <ListIcon />
+                Możliwe opóźnienia
+              </ItemSecBlock>{' '}
+            </ItemTabBlock>
+          </ListSecBlockTab>
+
           <BlockSecButton>Wybierz AKORD</BlockSecButton>
         </WorkTypeSecBlock>
       </WorkTypeItemContainer>

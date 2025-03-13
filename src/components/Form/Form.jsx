@@ -48,6 +48,7 @@ export const Form = () => {
             <ContactItem>
               <PhoneIcon /> (123) 456 - 789
             </ContactItem>
+
             <ContactItemAdress>
               <GeoIcon />
               <ContactSpan>794 Mcallister St San Francisco, 94102</ContactSpan>

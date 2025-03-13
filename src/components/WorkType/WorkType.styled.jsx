@@ -27,10 +27,19 @@ export const WorkTypeMainTitle = styled.div`
   line-height: 93%;
   margin-bottom: 80px;
   color: #0f4131;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    margin-bottom: 24px;
+  }
 `;
 
 export const QuestionTitleItem = styled.h2`
-  width: 1320px;
+  max-width: 1320px;
 
   font-family: 'Onest';
   font-style: normal;
@@ -42,12 +51,33 @@ export const QuestionTitleItem = styled.h2`
   color: #0f4131;
 
   margin: 0 0 60px 0px;
+
+  @media (max-width: 1024px) {
+    font-size: 64px;
+    line-height: 94%;
+
+    width: 622px;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+
+    width: 296px;
+
+    font-size: 30.6815px;
+    line-height: 105.91%;
+    text-align: center;
+  }
 `;
 
 export const WorkTypeItemContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 35px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 
 export const WorkTypeFirstBlock = styled.div`
@@ -60,6 +90,19 @@ export const WorkTypeFirstBlock = styled.div`
   padding: 60px;
 
   position: relative;
+
+  @media (max-width: 1024px) {
+    width: 532px;
+    height: 365.92px;
+    padding: 45px;
+  }
+
+  @media (max-width: 768px) {
+    width: 288px;
+    height: 479px;
+
+    padding: 30px 20px 20px 20px;
+  }
 `;
 
 export const WorkTypeSecBlock = styled.div`
@@ -71,6 +114,18 @@ export const WorkTypeSecBlock = styled.div`
   border-radius: 25.9869px;
 
   padding: 60px 20px 40px 43px;
+
+  @media (max-width: 1024px) {
+    width: 540px;
+    height: 272px;
+    padding: 40px;
+  }
+
+  @media (max-width: 768px) {
+    width: 288px;
+    height: 328.27px;
+    padding: 35px 25px 35px 25px;
+  }
 `;
 
 export const MainBlockText = styled.h3`
@@ -83,6 +138,15 @@ export const MainBlockText = styled.h3`
   color: #ffffff;
 
   margin: 0 0 7px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 32.7779px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 42px;
+    line-height: 54px;
+  }
 `;
 
 export const BlockText = styled.p`
@@ -96,6 +160,18 @@ export const BlockText = styled.p`
 
   width: 507px;
   margin: 0 0 30px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 15.2106px;
+    line-height: 25px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    line-height: 18px;
+
+    width: 248px;
+  }
 `;
 
 export const ListBlock = styled.ul`
@@ -130,6 +206,16 @@ export const ItemBlock = styled.li`
   &:last-child {
     margin-bottom: 0;
   }
+
+  @media (max-width: 1024px) {
+    font-size: 15.2106px;
+    line-height: 15px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 18.653px;
+    line-height: 19px;
+  }
 `;
 
 export const BlockButton = styled.button`
@@ -153,6 +239,16 @@ export const BlockButton = styled.button`
   color: #065b2a;
 
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    width: 248px;
+    height: 72px;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    display: block;
+  }
 `;
 
 export const ImageBlock = styled.img`
@@ -165,6 +261,15 @@ export const ImageBlock = styled.img`
 
   mix-blend-mode: luminosity;
   opacity: 0.57;
+
+  @media (max-width: 1024px) {
+    width: 308.93px;
+    height: 302.14px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const MainSecBlockText = styled.h3`
@@ -177,6 +282,16 @@ export const MainSecBlockText = styled.h3`
   color: #0f4131;
 
   margin: 0 0 9px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 32.7239px;
+    line-height: 42px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 24.7362px;
+    line-height: 32px;
+  }
 `;
 
 export const SecBlockText = styled.p`
@@ -191,6 +306,20 @@ export const SecBlockText = styled.p`
   color: #0f4131;
 
   margin: 0 0 26px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 15.1856px;
+    line-height: 25px;
+
+    width: 331.91px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 11.4789px;
+    line-height: 19px;
+
+    width: 250.9px;
+  }
 `;
 
 export const ListSecBlock = styled.ul`
@@ -200,6 +329,36 @@ export const ListSecBlock = styled.ul`
   margin: 0 0 41px 0;
 
   list-style: none;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 0 25px 0;
+    display: block;
+  }
+`;
+
+export const ListSecBlockTab = styled.ul`
+  display: none;
+
+  @media (max-width: 1024px) {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin: 0 0 30px 0;
+
+    display: flex;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const ItemTabBlock = styled.div`
+  margin-right: 4px;
 `;
 
 export const ItemSecBlock = styled.li`
@@ -217,6 +376,16 @@ export const ItemSecBlock = styled.li`
 
   &:last-child {
     margin-bottom: 0;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 14.6719px;
+    line-height: 15px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 11.4789px;
+    line-height: 11px;
   }
 `;
 
@@ -239,6 +408,24 @@ export const BlockSecButton = styled.button`
   color: #a3d1b6;
 
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    width: 221.28px;
+    height: 56.1px;
+
+    font-size: 17.1411px;
+    line-height: 15px;
+  }
+
+  @media (max-width: 768px) {
+    width: 167.26px;
+    height: 42.4px;
+
+    font-size: 12.9571px;
+    line-height: 11px;
+
+    color: #a3d1b6;
+  }
 `;
 
 export const ListIcon = styled(MdCancel)`
