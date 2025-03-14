@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeroMainContainer = styled.div`
   margin-top: 148px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     margin-top: 50px;
   }
 `;
@@ -17,7 +17,7 @@ export const HeroTitle = styled.h2`
   margin: 0 0 100px 0;
   color: #ffffff;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     display: none;
   }
 
@@ -27,7 +27,7 @@ export const HeroTitle = styled.h2`
 
     text-align: center;
     display: block;
-    margin: 0 0 50px 0;
+    margin: 0 auto 50px;
   }
 `;
 
@@ -43,7 +43,7 @@ export const HeroTitleTab = styled.h2`
 
   margin: 50px 0 0 0;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1441px) {
     display: none;
   }
 
@@ -62,7 +62,7 @@ export const MainTitle = styled.h1`
   margin: 0;
   color: #ffffff;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     line-height: 105.91%;
     text-align: center;
   }
@@ -86,7 +86,7 @@ export const MainTitleSpan = styled.span`
 
   color: #ffffff;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     line-height: 90%;
   }
 
@@ -117,7 +117,7 @@ export const HeaderHeroRightButton = styled.button`
   justify-content: center;
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     display: none;
   }
 `;
@@ -159,7 +159,7 @@ export const HeroIcon = styled.img`
   display: block;
   margin: 30px auto;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1441px) {
     display: none;
   }
 

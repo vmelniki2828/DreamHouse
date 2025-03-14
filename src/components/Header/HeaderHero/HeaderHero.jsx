@@ -16,11 +16,12 @@ import button_arrow from '../../../images/button_arrow.png';
 import { ImageBlock } from '../HeaderMenu/HeaderMenu.styled';
 import whiteBigArrow from '../../../images/whiteBigArrow.png';
 import logo from '../../../images/Logo.png';
+import big_logo from '../../../images/big_icon.png';
 
 const HeaderHero = () => {
   return (
     <HeroMainContainer>
-      <HeroIcon src={logo} />
+      <HeroIcon src={big_logo} />
       <HeroTitle>
         Realizujemy projekty w akordzie, kompletujemy ekipy
         <br /> i wprowadzamy nowe technologie.
