@@ -8,6 +8,10 @@ export const WorkTypeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 1440px) {
+    padding: 0 40px 44px;
+  }
 `;
 
 export const WorkTypeMainTitle = styled.div`
@@ -28,7 +32,7 @@ export const WorkTypeMainTitle = styled.div`
   margin-bottom: 80px;
   color: #0f4131;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     display: none;
   }
 
@@ -52,7 +56,7 @@ export const QuestionTitleItem = styled.h2`
 
   margin: 0 0 60px 0px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     font-size: 64px;
     line-height: 94%;
 
@@ -75,7 +79,7 @@ export const WorkTypeItemContainer = styled.div`
   align-items: center;
   gap: 35px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     flex-direction: column;
   }
 `;
@@ -91,7 +95,7 @@ export const WorkTypeFirstBlock = styled.div`
 
   position: relative;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     width: 532px;
     height: 365.92px;
     padding: 45px;
@@ -115,7 +119,7 @@ export const WorkTypeSecBlock = styled.div`
 
   padding: 60px 20px 40px 43px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     width: 540px;
     height: 272px;
     padding: 40px;
@@ -139,7 +143,7 @@ export const MainBlockText = styled.h3`
 
   margin: 0 0 7px 0;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     font-size: 32.7779px;
   }
 
@@ -161,7 +165,7 @@ export const BlockText = styled.p`
   width: 507px;
   margin: 0 0 30px 0;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     font-size: 15.2106px;
     line-height: 25px;
   }
@@ -196,10 +200,12 @@ export const ItemBlock = styled.li`
   &::before {
     content: '';
     display: inline-block;
+    flex-shrink: 0; /* Запрещает уменьшаться */
     width: 28px;
     height: 28px;
+    box-sizing: border-box;
     background-image: url(${imgIcon});
-    background-size: contain;
+    background-size: 100% 100%; /* Полное заполнение */
     background-repeat: no-repeat;
   }
 
@@ -207,7 +213,7 @@ export const ItemBlock = styled.li`
     margin-bottom: 0;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     font-size: 15.2106px;
     line-height: 15px;
   }
@@ -240,7 +246,7 @@ export const BlockButton = styled.button`
 
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     width: 248px;
     height: 72px;
   }
@@ -262,7 +268,7 @@ export const ImageBlock = styled.img`
   mix-blend-mode: luminosity;
   opacity: 0.57;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     width: 308.93px;
     height: 302.14px;
   }
@@ -283,7 +289,7 @@ export const MainSecBlockText = styled.h3`
 
   margin: 0 0 9px 0;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     font-size: 32.7239px;
     line-height: 42px;
   }
@@ -307,7 +313,7 @@ export const SecBlockText = styled.p`
 
   margin: 0 0 26px 0;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     font-size: 15.1856px;
     line-height: 25px;
 
@@ -330,7 +336,7 @@ export const ListSecBlock = styled.ul`
 
   list-style: none;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     display: none;
   }
 
@@ -343,7 +349,7 @@ export const ListSecBlock = styled.ul`
 export const ListSecBlockTab = styled.ul`
   display: none;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -378,7 +384,7 @@ export const ItemSecBlock = styled.li`
     margin-bottom: 0;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     font-size: 14.6719px;
     line-height: 15px;
   }
@@ -409,7 +415,7 @@ export const BlockSecButton = styled.button`
 
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     width: 221.28px;
     height: 56.1px;
 

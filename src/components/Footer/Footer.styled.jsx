@@ -2,13 +2,31 @@ import styled from 'styled-components';
 
 export const FooterConteiner = styled.div`
   padding: 49px 59px;
+
+  background: #ffffff;
+
+  box-shadow: 0px -2px 20.7px rgba(0, 0, 0, 0.05);
+
+  @media (max-width: 1280px) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+`;
+
+export const FooterDestopBlock = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
 
-  background: #ffffff;
-  box-shadow: 0px -2px 20.7px rgba(0, 0, 0, 0.05);
+  @media (max-width: 1280px) {
+    gap: 222px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 
 export const FooterText = styled.p`
@@ -19,6 +37,10 @@ export const FooterText = styled.p`
   line-height: 18px;
 
   color: #7ba48c;
+
+  text-align: center;
+
+  margin: 0;
 `;
 
 export const SocialMediaBlock = styled.ul`
@@ -35,6 +57,50 @@ export const SocialMediaBlock = styled.ul`
 
   margin-right: 300px;
   margin-left: 127px;
+
+  @media (max-width: 1280px) {
+    display: none;
+  }
+`;
+
+export const SocialMediaBlockTab = styled.ul`
+  display: none;
+
+  @media (max-width: 1280px) {
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 24px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const SocialMediaBlockMob = styled.ul`
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 40px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export const SocialMediaItem = styled.li`
@@ -71,6 +137,19 @@ export const LogoImage = styled.img`
   height: 64px;
 
   color: black;
+`;
+
+export const LogoImageMob = styled.img`
+  width: 56px;
+  height: 64px;
+
+  color: black;
+
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export const FooterSpan = styled.span`

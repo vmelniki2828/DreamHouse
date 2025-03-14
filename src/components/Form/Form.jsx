@@ -6,6 +6,8 @@ import {
   ContactItem,
   ContactItemAdress,
   ContactList,
+  ContactListTabFirst,
+  ContactListTabSec,
   ContactMainText,
   ContactSpan,
   ConteinerMap,
@@ -54,6 +56,25 @@ export const Form = () => {
               <ContactSpan>794 Mcallister St San Francisco, 94102</ContactSpan>
             </ContactItemAdress>
           </ContactList>
+
+          <ContactListTabFirst>
+            <ContactItem>
+              <MessegeIcon /> contact@company.com
+            </ContactItem>
+            <ContactItemAdress>
+              <GeoIcon />
+              <ContactSpan>794 Mcallister St </ContactSpan>
+            </ContactItemAdress>
+          </ContactListTabFirst>
+
+          <ContactListTabSec>
+            <ContactItem>
+              <PhoneIcon /> WhatsApp
+            </ContactItem>
+            <ContactItem>
+              <PhoneIcon /> (123) 456 - 789
+            </ContactItem>
+          </ContactListTabSec>
           <ConteinerMap>
             <StyledTopBlock />
             <Map

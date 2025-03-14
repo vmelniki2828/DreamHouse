@@ -63,7 +63,7 @@ export const TopBlock = styled.div`
   height: 38px;
   margin-top: -38px;
 
-  // @media (max-width: 1024px) {
+  // @media (max-width: 1440px ) {
   //   width: 616px;
   //   height: 53px;
   // }
@@ -83,7 +83,7 @@ export const AboutMainContainer = styled.div`
   justify-content: center;
   margin-bottom: 101px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px ) {
     margin-bottom: 70px;
   }
 
@@ -117,7 +117,7 @@ export const AboutBigConatiner = styled.div`
   justify-content: center;
   gap: 35px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px ) {
     flex-direction: column-reverse;
     gap: 25px;
   }
@@ -144,7 +144,7 @@ export const AboutBigLeftContainerText = styled.h3`
   margin: 0 0 32px 0;
   color: #0f4131;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px ) {
     display: none;
   }
 `;
@@ -164,7 +164,7 @@ export const AboutBigLeftContainerSubText = styled.p`
 
   color: #0f4131;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px ) {
     text-align: center;
   }
 
@@ -192,7 +192,7 @@ export const AboutBigLeftContainerList = styled.ul`
 
   color: #0f4131;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px ) {
     list-style: none;
     text-align: center;
 
@@ -302,13 +302,7 @@ export const AboutSliderTopConInfo = styled.div`
     font-size: 10px;
     margin-bottom: -30.01px;
 
-    font-family: 'Onest', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12.6347px;
-    line-height: 0%;
-
-    color: #adadad;
+    font-size: 7.6347px;
   }
 `;
 export const ImgSliderBlock = styled.div`
@@ -431,7 +425,7 @@ export const AboutMobContainerText = styled.div`
 
   margin-bottom: 40px;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1440px ) {
     display: none;
   }
 
