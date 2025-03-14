@@ -63,10 +63,10 @@ export const TopBlock = styled.div`
   height: 38px;
   margin-top: -38px;
 
-  @media (max-width: 1024px) {
-    width: 616px;
-    height: 53px;
-  }
+  // @media (max-width: 1024px) {
+  //   width: 616px;
+  //   height: 53px;
+  // }
 
   @media (max-width: 768px) {
     width: 294px;
@@ -297,9 +297,18 @@ export const AboutSliderTopConInfo = styled.div`
   z-index: 1;
 
   @media (max-width: 768px) {
-    width: 323px;
-    height: 38px;
+    width: 255.06px;
+    height: 30.01px;
     font-size: 10px;
+    margin-bottom: -30.01px;
+
+    font-family: 'Onest', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6347px;
+    line-height: 0%;
+
+    color: #adadad;
   }
 `;
 export const ImgSliderBlock = styled.div`
@@ -312,7 +321,7 @@ export const ImgSliderBlock = styled.div`
   justify-content: center;
 
   position: absolute;
-  bottom: 41px;
+  bottom: 37px;
 
   clip-path: polygon(
     0% 100%,
@@ -370,11 +379,17 @@ export const ImgSliderBlock = styled.div`
 
   position: relative;
   z-index: 1;
+
+  @media (max-width: 768px) {
+    bottom: 29px;
+    width: 254.27px;
+    height: 30.01px;
+  }
 `;
 
 export const SliderWrapper = styled.div`
-  width: 100%;
-  max-width: 600px;
+  width: 622px;
+  height: 699px;
   margin: 0 auto;
   overflow: hidden;
 
@@ -388,6 +403,18 @@ export const SliderWrapper = styled.div`
   .slick-dots {
     bottom: 5px;
     z-index: 2;
+  }
+
+  @media (max-width: 768px) {
+    width: 300px;
+    height: 380px;
+
+    .slick-slide img {
+      width: 100%;
+      height: 380px;
+      display: block;
+      object-fit: cover;
+    }
   }
 `;
 

@@ -75,7 +75,11 @@ export const CurvedDiv = styled.div`
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   margin: 0 105px 0 276px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -91,7 +95,7 @@ export const LogoImg = styled.img`
   width: 32px;
   height: 37.11px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     display: none;
   }
 `;
@@ -156,7 +160,7 @@ export const ImageBlock = styled.div`
   display: inline-block;
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     display: none;
   }
 
@@ -171,7 +175,7 @@ export const ImageBlockMenu = styled.div`
   display: inline-block;
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     display: none;
   }
 `;
