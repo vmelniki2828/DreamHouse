@@ -19,8 +19,9 @@ export const FromFlexConteiner = styled.div`
 
   gap: 54px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     align-items: center;
+    gap: 26px;
   }
 `;
 
@@ -44,18 +45,18 @@ export const FormMainTitle = styled.div`
 
   text-transform: uppercase;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     display: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     display: flex;
     margin-bottom: 25px;
   }
 `;
 
 export const AddressBlock = styled.div`
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     display: none;
   }
 `;
@@ -67,14 +68,14 @@ export const FormBlock = styled.div`
   border-radius: 27.4066px;
   padding: 71px 43px 86px 43px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     width: 277.97px;
     height: 279.04px;
 
     padding: 33px 20px 40px 20px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     width: 248px;
     height: 836px;
 
@@ -96,7 +97,7 @@ export const MainAddressText = styled.h3`
 
   margin: 0 0 8px 0;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     font-size: 9.29129px;
     line-height: 10px;
 
@@ -115,7 +116,7 @@ export const MainSecAddressText = styled.h4`
 
   margin: 0 0 17px 0;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     font-size: 22.712px;
     line-height: 26px;
 
@@ -136,7 +137,7 @@ export const AddressText = styled.p`
 
   margin: 0 0 44px 0;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     font-size: 13px;
     line-height: 15px;
 
@@ -159,7 +160,7 @@ export const ContactMainText = styled.p`
 
   margin: 0 0 23px 0px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     font-size: 9.29129px;
     line-height: 10px;
 
@@ -175,8 +176,44 @@ export const ContactList = styled.ul`
 
   list-style: none;
 
-  @media (max-width: 1024px) {
-    margin: 0 0 25px 0;
+  @media (max-width: 1350px) {
+    display: none;
+  }
+`;
+
+export const ContactListTabFirst = styled.ul`
+  display: none;
+
+  @media (max-width: 1350px) {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: baseline;
+
+    margin: 0;
+
+    list-style: none;
+
+    gap: 77px;
+  }
+`;
+
+export const ContactListTabSec = styled.ul`
+  display: none;
+
+  @media (max-width: 1350px) {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: baseline;
+
+    margin: 0;
+
+    list-style: none;
+
+    gap: 133px;
   }
 `;
 
@@ -197,7 +234,7 @@ export const ContactItem = styled.li`
     margin-bottom: 0;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     font-size: 9.29129px;
     line-height: 9px;
     margin-bottom: 12px;
@@ -226,7 +263,7 @@ export const ContactSpan = styled.span`
   font-size: 19.7328px;
   line-height: 20px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     font-size: 9.29129px;
     line-height: 9px;
 
@@ -238,7 +275,7 @@ export const MessegeIcon = styled(MdMailOutline)`
   width: 18px;
   height: 18px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     width: 10px;
     height: 10px;
   }
@@ -248,7 +285,7 @@ export const PhoneIcon = styled(FaPhone)`
   width: 18px;
   height: 18px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     width: 10px;
     height: 10px;
   }
@@ -257,7 +294,7 @@ export const PhoneIcon = styled(FaPhone)`
 export const GeoIcon = styled(BsFillGeoAltFill)`
   width: 18px;
   height: 18px;
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     width: 10px;
     height: 10px;
   }
@@ -274,8 +311,8 @@ export const Map = styled.iframe`
 
   border: 0;
 
-  @media (max-width: 1024px) {
-    width: 300.71px;
+  @media (max-width: 1350px) {
+    width: 277px;
     height: 200px;
   }
 `;
@@ -290,8 +327,8 @@ export const StyledTopBlock = styled.div`
   pointer-events: none;
   z-index: 1;
 
-  @media (max-width: 1024px) {
-    width: 300.71px;
+  @media (max-width: 1350px) {
+    width: 277px;
     height: 200px;
   }
 `;
@@ -310,14 +347,14 @@ export const Label = styled.label`
 
   color: #0f4131;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     font-size: 9.29129px;
     line-height: 9px;
 
     margin-bottom: 6px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     font-size: 19.7328px;
     line-height: 20px;
 
@@ -345,7 +382,7 @@ export const Input = styled.input`
 
   color: #84a491;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     width: 118.14px;
     height: 35.17px;
 
@@ -355,7 +392,7 @@ export const Input = styled.input`
     line-height: 9px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     width: 219px;
     height: 66px;
 
@@ -388,7 +425,7 @@ export const Textarea = styled.textarea`
 
   border-radius: 21.9253px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     padding: 12px;
 
     width: 252.67px;
@@ -398,7 +435,7 @@ export const Textarea = styled.textarea`
     line-height: 9px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     width: 209px;
     height: 178px;
 
@@ -433,7 +470,7 @@ export const Button = styled.button`
 
   margin-top: 35px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     width: 122.17px;
     height: 34.78px;
 
@@ -445,7 +482,7 @@ export const Button = styled.button`
     margin-top: 16px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     width: 243px;
     height: 68px;
 
@@ -463,11 +500,11 @@ export const Row = styled.div`
 
   margin-bottom: 35px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1350px) {
     margin-bottom: 16px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 680px) {
     margin-bottom: 22px;
     flex-direction: column;
   }
