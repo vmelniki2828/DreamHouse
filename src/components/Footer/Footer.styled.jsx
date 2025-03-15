@@ -98,7 +98,7 @@ export const SocialMediaBlockMob = styled.ul`
   gap: 14px;
   margin-bottom: 40px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     display: none;
   }
 `;
@@ -147,7 +147,7 @@ export const LogoImageMob = styled.img`
 
   margin-bottom: 20px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     display: none;
   }
 `;

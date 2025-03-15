@@ -10,7 +10,7 @@ export const HeaderMainContainer = styled.div`
   padding: 0 40px;
   margin: 0 auto;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     height: 548px;
   }
 `;

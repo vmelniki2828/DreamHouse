@@ -21,7 +21,7 @@ export const HeroTitle = styled.h2`
     display: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 14px;
     line-height: 105.91%;
 
@@ -47,7 +47,7 @@ export const HeroTitleTab = styled.h2`
     display: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     display: none;
   }
 `;
@@ -67,7 +67,7 @@ export const MainTitle = styled.h1`
     text-align: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 16.9683px;
     line-height: 105.91%;
 
@@ -90,7 +90,7 @@ export const MainTitleSpan = styled.span`
     line-height: 90%;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-family: 'Onest';
     font-style: normal;
     font-weight: 700;
@@ -163,7 +163,7 @@ export const HeroIcon = styled.img`
     display: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 42px;
     height: 48.71px;
     margin: 50px auto;

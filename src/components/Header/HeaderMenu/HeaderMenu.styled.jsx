@@ -79,7 +79,7 @@ export const CurvedDiv = styled.div`
     margin: 0 auto;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     display: none;
   }
 `;
@@ -164,7 +164,7 @@ export const ImageBlock = styled.div`
     display: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     display: block;
     margin: 71px auto;
   }

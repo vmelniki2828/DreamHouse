@@ -68,7 +68,7 @@ export const TopBlock = styled.div`
   //   height: 53px;
   // }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 294px;
     height: 18px;
     margin-top: -18px;
@@ -128,7 +128,7 @@ export const AboutBigLeftContainer = styled.div`
   flex-direction: column;
   width: 670px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 287px;
     margin: 25px auto;
   }
@@ -166,13 +166,13 @@ export const AboutBigLeftContainerSubText = styled.p`
 
   @media (max-width: 1440px ) {
     text-align: center;
+
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 20.4337px;
     line-height: 105.91%;
     text-align: center;
-
     color: #0f4131;
   }
 `;
@@ -202,7 +202,7 @@ export const AboutBigLeftContainerList = styled.ul`
     padding-left: 0px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 20.4337px;
     line-height: 105.91%;
 
@@ -296,7 +296,7 @@ export const AboutSliderTopConInfo = styled.div`
   position: relative;
   z-index: 1;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 255.06px;
     height: 30.01px;
     font-size: 10px;
@@ -399,7 +399,7 @@ export const SliderWrapper = styled.div`
     z-index: 2;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 300px;
     height: 380px;
 
