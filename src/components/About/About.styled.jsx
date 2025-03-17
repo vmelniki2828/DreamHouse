@@ -61,17 +61,17 @@ export const TopBlock = styled.div`
   background-color: white;
   width: 615px;
   height: 38px;
-  margin-top: -38px;
+  margin-top: -37px;
 
-  // @media (max-width: 1440px ) {
+  // @media (max-width: 1400px ) {
   //   width: 616px;
   //   height: 53px;
   // }
 
-  @media (max-width: 767px) {
+  @media (max-width: 668px) {
     width: 294px;
     height: 18px;
-    margin-top: -18px;
+    margin-top: -17px;
   }
 `;
 
@@ -83,11 +83,11 @@ export const AboutMainContainer = styled.div`
   justify-content: center;
   margin-bottom: 101px;
 
-  @media (max-width: 1440px ) {
+  @media (max-width: 1400px) {
     margin-bottom: 70px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 668px) {
     margin-bottom: 50px;
   }
 `;
@@ -117,7 +117,7 @@ export const AboutBigConatiner = styled.div`
   justify-content: center;
   gap: 35px;
 
-  @media (max-width: 1440px ) {
+  @media (max-width: 1400px) {
     flex-direction: column-reverse;
     gap: 25px;
   }
@@ -128,7 +128,7 @@ export const AboutBigLeftContainer = styled.div`
   flex-direction: column;
   width: 670px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 668px) {
     width: 287px;
     margin: 25px auto;
   }
@@ -144,7 +144,7 @@ export const AboutBigLeftContainerText = styled.h3`
   margin: 0 0 32px 0;
   color: #0f4131;
 
-  @media (max-width: 1440px ) {
+  @media (max-width: 1400px) {
     display: none;
   }
 `;
@@ -164,12 +164,11 @@ export const AboutBigLeftContainerSubText = styled.p`
 
   color: #0f4131;
 
-  @media (max-width: 1440px ) {
+  @media (max-width: 1400px) {
     text-align: center;
-
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 668px) {
     font-size: 20.4337px;
     line-height: 105.91%;
     text-align: center;
@@ -192,7 +191,7 @@ export const AboutBigLeftContainerList = styled.ul`
 
   color: #0f4131;
 
-  @media (max-width: 1440px ) {
+  @media (max-width: 1400px) {
     list-style: none;
     text-align: center;
 
@@ -202,7 +201,7 @@ export const AboutBigLeftContainerList = styled.ul`
     padding-left: 0px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 668px) {
     font-size: 20.4337px;
     line-height: 105.91%;
 
@@ -296,7 +295,7 @@ export const AboutSliderTopConInfo = styled.div`
   position: relative;
   z-index: 1;
 
-  @media (max-width: 767px) {
+  @media (max-width: 668px) {
     width: 255.06px;
     height: 30.01px;
     font-size: 10px;
@@ -374,7 +373,7 @@ export const ImgSliderBlock = styled.div`
   position: relative;
   z-index: 1;
 
-  @media (max-width: 768px) {
+  @media (max-width: 668px) {
     bottom: 29px;
     width: 254.27px;
     height: 30.01px;
@@ -399,7 +398,7 @@ export const SliderWrapper = styled.div`
     z-index: 2;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 668px) {
     width: 300px;
     height: 380px;
 
@@ -425,11 +424,11 @@ export const AboutMobContainerText = styled.div`
 
   margin-bottom: 40px;
 
-  @media (min-width: 1440px ) {
+  @media (min-width: 1400px) {
     display: none;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 668px) {
     font-size: 30px;
     line-height: 105.91%;
 

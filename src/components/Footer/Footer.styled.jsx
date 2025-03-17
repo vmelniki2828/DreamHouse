@@ -23,7 +23,7 @@ export const FooterDestopBlock = styled.div`
     gap: 222px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 650px) {
     flex-direction: column;
     gap: 20px;
   }
@@ -80,7 +80,7 @@ export const SocialMediaBlockTab = styled.ul`
     margin-bottom: 24px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 650px) {
     display: none;
   }
 `;
@@ -98,7 +98,7 @@ export const SocialMediaBlockMob = styled.ul`
   gap: 14px;
   margin-bottom: 40px;
 
-  @media (min-width: 769px) {
+  @media (min-width: 650px) {
     display: none;
   }
 `;
@@ -147,7 +147,7 @@ export const LogoImageMob = styled.img`
 
   margin-bottom: 20px;
 
-  @media (min-width: 769px) {
+  @media (min-width: 650px) {
     display: none;
   }
 `;
