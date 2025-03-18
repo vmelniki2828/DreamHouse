@@ -33,7 +33,7 @@ const About = () => {
   return (
     <AboutMainContainer>
       <TopBlock />
-      <AboutMainTitle>O NAS</AboutMainTitle>
+      <AboutMainTitle id="AboutUs" >O NAS</AboutMainTitle>
 
       <AboutMobContainerText>
         <AboutBigLeftContainerTextSpan>

@@ -108,6 +108,8 @@ export const NavItem = styled.a`
   line-height: 18.98px;
   text-decoration: none;
   color: #000000;
+
+  cursor: pointer;
 `;
 
 export const HeaderButton = styled.button`

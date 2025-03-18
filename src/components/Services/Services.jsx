@@ -31,7 +31,7 @@ const Services = () => {
 
   return (
     <ServicesMainContainer>
-      <ServicesMainTitle>USŁUGI</ServicesMainTitle>
+      <ServicesMainTitle id="Services">USŁUGI</ServicesMainTitle>
       <ServiceBlock>
         <ServiceList>
           {works.map((work, index) => (
