@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   ButtonImage,
   CurvedDiv,
@@ -14,15 +15,22 @@ import header_button from '../../../images/header_button.png';
 import button_arrow from '../../../images/button_arrow.png';
 
 const HeaderMenu = () => {
+  const scrollToSection = id => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <HeaderMenuContainer>
       <LogoImg src={logo} alt="Logo" />
       <CurvedDiv>
         <InCurvedDiv>
-          <NavItem href="#">O nas</NavItem>
-          <NavItem href="#">Usługi</NavItem>
-          <NavItem href="#">Zalety</NavItem>
-          <NavItem href="#">Kontakt</NavItem>
+          <NavItem onClick={() => scrollToSection('AboutUs')}>O nas</NavItem>
+          <NavItem onClick={() => scrollToSection('Services')}>Usługi</NavItem>
+          <NavItem onClick={() => scrollToSection('WorkType')}>Zalety</NavItem>
+          <NavItem onClick={() => scrollToSection('Contact')}>Kontakt</NavItem>
         </InCurvedDiv>
       </CurvedDiv>
       <ImageBlockMenu>

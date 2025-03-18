@@ -31,7 +31,7 @@ import {
 export const Form = () => {
   return (
     <FormConteiner>
-      <FormMainTitle>Formularz</FormMainTitle>
+      <FormMainTitle id="Contact">Formularz</FormMainTitle>
       <FromFlexConteiner>
         <AddressBlock>
           <MainAddressText>zarejestruj pracę</MainAddressText>

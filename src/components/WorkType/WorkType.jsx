@@ -25,7 +25,7 @@ import img from '../../images/WorkTypePic.png';
 const WorkType = () => {
   return (
     <WorkTypeContainer>
-      <WorkTypeMainTitle>RODZAJE PRACY</WorkTypeMainTitle>
+      <WorkTypeMainTitle id="WorkType">RODZAJE PRACY</WorkTypeMainTitle>
       <QuestionTitleItem>
         Jaki model współpracy jest dla Ciebie odpowiedni?
       </QuestionTitleItem>
