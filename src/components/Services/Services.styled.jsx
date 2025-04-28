@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import service_bg from '../../images/service_test_img.png';
 import { FaArrowRight } from 'react-icons/fa';
 
 export const ServicesMainContainer = styled.div`
@@ -66,7 +65,7 @@ export const ServiceItem = styled.li`
   width: 410px;
   height: 460px;
 
-  background-image: url(${service_bg});
+  background-image: url(${props => props.service_bg});
   background-size: cover;
   background-position: center;
 
